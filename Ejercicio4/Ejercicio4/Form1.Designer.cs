@@ -81,7 +81,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Blue;
             label1.ForeColor = Color.White;
-            label1.Location = new Point(259, 9);
+            label1.Location = new Point(164, 9);
             label1.Name = "label1";
             label1.Size = new Size(217, 25);
             label1.TabIndex = 4;
@@ -92,7 +92,7 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.DeepSkyBlue;
-            ClientSize = new Size(611, 375);
+            ClientSize = new Size(611, 342);
             Controls.Add(label1);
             Controls.Add(lblResultado);
             Controls.Add(txtNumero2);
