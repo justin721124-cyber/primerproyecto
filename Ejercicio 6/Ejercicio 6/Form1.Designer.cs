@@ -45,7 +45,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(527, 315);
             Controls.Add(cmbColores);
             Name = "Form1";
             Text = "Form1";
