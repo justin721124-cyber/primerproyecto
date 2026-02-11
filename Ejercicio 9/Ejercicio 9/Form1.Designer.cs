@@ -38,9 +38,9 @@
             label1.AutoSize = true;
             label1.Location = new Point(435, 78);
             label1.Name = "label1";
-            label1.Size = new Size(59, 25);
+            label1.Size = new Size(101, 25);
             label1.TabIndex = 0;
-            label1.Text = "label1";
+            label1.Text = "Contraseña";
             // 
             // button1
             // 
@@ -48,7 +48,7 @@
             button1.Name = "button1";
             button1.Size = new Size(112, 34);
             button1.TabIndex = 1;
-            button1.Text = "button1";
+            button1.Text = "Entrar";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
