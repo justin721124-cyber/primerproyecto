@@ -1,0 +1,95 @@
+﻿namespace Ejercicio_15
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            txtContenido = new TextBox();
+            btnAbrir = new Button();
+            btnGuardar = new Button();
+            openFileDialog1 = new OpenFileDialog();
+            saveFileDialog1 = new SaveFileDialog();
+            SuspendLayout();
+            // 
+            // txtContenido
+            // 
+            txtContenido.Dock = DockStyle.Fill;
+            txtContenido.Location = new Point(0, 0);
+            txtContenido.Multiline = true;
+            txtContenido.Name = "txtContenido";
+            txtContenido.ScrollBars = ScrollBars.Both;
+            txtContenido.Size = new Size(516, 263);
+            txtContenido.TabIndex = 0;
+            txtContenido.TextChanged += txtContenido_TextChanged;
+            // 
+            // btnAbrir
+            // 
+            btnAbrir.Location = new Point(25, 55);
+            btnAbrir.Name = "btnAbrir";
+            btnAbrir.Size = new Size(112, 34);
+            btnAbrir.TabIndex = 1;
+            btnAbrir.Text = "Abrir";
+            btnAbrir.UseVisualStyleBackColor = true;
+            btnAbrir.Click += btnAbrir_Click;
+            // 
+            // btnGuardar
+            // 
+            btnGuardar.Location = new Point(25, 95);
+            btnGuardar.Name = "btnGuardar";
+            btnGuardar.Size = new Size(112, 34);
+            btnGuardar.TabIndex = 2;
+            btnGuardar.Text = "Guardar";
+            btnGuardar.UseVisualStyleBackColor = true;
+            btnGuardar.Click += btnGuardar_Click;
+            // 
+            // openFileDialog1
+            // 
+            openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(516, 263);
+            Controls.Add(btnGuardar);
+            Controls.Add(btnAbrir);
+            Controls.Add(txtContenido);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private TextBox txtContenido;
+        private Button btnAbrir;
+        private Button btnGuardar;
+        private OpenFileDialog openFileDialog1;
+        private SaveFileDialog saveFileDialog1;
+    }
+}
