@@ -6,8 +6,8 @@ namespace Ejercicio_13
         {
             InitializeComponent();
 
-            timer1.Interval = 100; // Velocidad
-            timer1.Tick += timer1_Tick; // Conectar evento
+            timer1.Interval = 100;
+            timer1.Tick += timer1_Tick; 
         }
 
         private void btnIniciar_Click(object sender, EventArgs e)
