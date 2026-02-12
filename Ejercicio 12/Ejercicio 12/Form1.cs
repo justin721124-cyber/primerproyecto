@@ -14,7 +14,6 @@ namespace Ejercicio_12
         {
             double celsius;
 
-            // Validar que sea número
             if (double.TryParse(txtCelsius.Text, out celsius))
             {
                 double fahrenheit = (celsius * 9 / 5) + 32;
