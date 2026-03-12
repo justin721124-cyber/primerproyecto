@@ -78,6 +78,7 @@
             conversorDeDivisasToolStripMenuItem.Name = "conversorDeDivisasToolStripMenuItem";
             conversorDeDivisasToolStripMenuItem.Size = new Size(280, 34);
             conversorDeDivisasToolStripMenuItem.Text = "Conversor de Divisas";
+            conversorDeDivisasToolStripMenuItem.Click += conversorDeDivisasToolStripMenuItem_Click;
             // 
             // serieFibonacciToolStripMenuItem
             // 
@@ -85,6 +86,7 @@
             serieFibonacciToolStripMenuItem.Name = "serieFibonacciToolStripMenuItem";
             serieFibonacciToolStripMenuItem.Size = new Size(280, 34);
             serieFibonacciToolStripMenuItem.Text = "Serie Fibonacci";
+            serieFibonacciToolStripMenuItem.Click += serieFibonacciToolStripMenuItem_Click;
             // 
             // Form1
             // 

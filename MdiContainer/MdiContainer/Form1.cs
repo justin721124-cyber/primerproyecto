@@ -18,5 +18,19 @@ namespace MdiContainer
             frn.MdiParent = this;
             frn.Show();
         }
+
+        private void conversorDeDivisasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 frm = new Form3();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void serieFibonacciToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form4 frb = new Form4();
+            frb.MdiParent = this;
+            frb.Show();
+        }
     }
 }
